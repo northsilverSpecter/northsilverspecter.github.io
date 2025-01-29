@@ -1,20 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    text-align: center;
+    background-color: #02051f;
+    color: #e6e6e6;
 }
 
-header {
-    background-color: #ffcccc;
-    padding: 20px;
+.header-box {
+    width: 267px;
+    height: 100px;
+    background-color: #020d2b;
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align: center;
+    padding: 1%;
+}
+
+.sidebar {
+    text-align: right;
 }
 
 footer {
-    background-color: #333;
+    background-color: #05081a;
     color: white;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
