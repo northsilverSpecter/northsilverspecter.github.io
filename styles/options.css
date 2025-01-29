@@ -1,9 +1,29 @@
 .options {
     text-align: center;
     padding-top: 7%;
-    padding-right: 60%;
+    padding-right: 70%;
 }
 
-.options h5 {
-    margin-left: 5px;
+.button-icon{
+	float: left;
+    margin-left: 95%;
+	width: 48px;
+	height: 48px;
+	background: url('../assets/button-unhover.png') no-repeat;
+	background-position: center bottom;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.button-icon:hover{
+	background: url('../assets/button-icon.png') no-repeat;
+}
+
+.button-icon:focus{
+	background: url('../assets/button-icon.png') no-repeat;
+}
+
+.button-icon:active{
+	background: url('../assets/button-click.png') no-repeat;
 }

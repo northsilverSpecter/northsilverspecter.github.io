@@ -5,14 +5,14 @@ body {
 }
 
 header {
-    position: initial;
+    position: sticky;
 }
 
 .header-box {
     width: 267px;
     height: 100px;
     background-color: #020d2b;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 3%;
     padding-top: 1%;
     text-align: center;
