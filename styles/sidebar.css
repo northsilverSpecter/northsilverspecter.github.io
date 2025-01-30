@@ -1,0 +1,35 @@
+.sidebar {
+    width: 200px;
+    text-align: left;
+    float: right;
+    padding-top: 5%;
+    margin: 5px;
+}
+
+.sidebar-head {
+	padding-left: 3%;
+    border: 5px solid #041a4d;
+    background-color: #4e9dd9;
+}
+
+.sidebar-link {
+	padding-left: 3%;
+    border: 5px solid #041a4d;
+    background-color: #042a78;
+}
+
+.sidebar-status {
+	padding-left: 3%;
+    border: 5px solid #041a4d;
+    background-color: #0c3569;
+    border: 
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #768af5;
+}
+
+.sidebar a:hover {
+    color: #3e59ed
+}
