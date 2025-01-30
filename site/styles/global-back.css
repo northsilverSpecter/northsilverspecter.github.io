@@ -1,6 +1,5 @@
 .go-back {
 	width: 15%;
-	
 	background-color: #020d2b;
     border: 5px solid #041a4d;
 	
@@ -9,7 +8,6 @@
 	
 	text-align: center;
 	display: inline-block;
-    vertical-align: middle;
 }
 
 .go-back h1, h2 {
