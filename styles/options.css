@@ -1,12 +1,25 @@
 .options {
-    text-align: center;
-    padding-top: 7%;
-    padding-right: 70%;
+    text-align: left;
+	margin-left: 10%;
+    margin-top: 7%;
+    margin-right: 60%;
+	background-color: #020d2b;
+    border: 5px solid #041a4d;
+}
+
+.options h1 {
+	display: inline-block;
+    vertical-align: middle;
+	margin-left: 5%;
+}
+
+.options h2 {
+	display: inline-block;
+    vertical-align: middle;
+	margin-left: 5%;
 }
 
 .button-icon{
-	float: left;
-    margin-left: 95%;
 	width: 48px;
 	height: 48px;
 	background: url('../assets/button-unhover.png') no-repeat;
@@ -14,13 +27,14 @@
     background-size: cover;
     border: none;
     cursor: pointer;
+	float: right;
+	display: inline-block;
+    vertical-align: middle;
+	margin-top: 5%;
+	margin-right: 10%;
 }
 
 .button-icon:hover{
-	background: url('../assets/button-icon.png') no-repeat;
-}
-
-.button-icon:focus{
 	background: url('../assets/button-icon.png') no-repeat;
 }
 
