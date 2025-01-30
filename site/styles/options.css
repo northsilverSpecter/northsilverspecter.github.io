@@ -7,13 +7,7 @@
     border: 5px solid #041a4d;
 }
 
-.options h1 {
-	display: inline-block;
-    vertical-align: middle;
-	margin-left: 5%;
-}
-
-.options h2 {
+.options h1, h2 {
 	display: inline-block;
     vertical-align: middle;
 	margin-left: 5%;
@@ -22,16 +16,19 @@
 .button-icon{
 	width: 48px;
 	height: 48px;
+	
 	background: url('../assets/button-unhover.png') no-repeat;
 	background-position: center bottom;
     background-size: cover;
     border: none;
     cursor: pointer;
+	
 	float: right;
 	display: inline-block;
     vertical-align: middle;
+	
 	margin-top: 5%;
-	margin-right: 10%;
+	margin-right: 7%;
 }
 
 .button-icon:hover{
