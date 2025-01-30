@@ -4,19 +4,23 @@ body {
     color: #c5cae6;
 }
 
-header {
-    position: sticky;
-}
-
 .header-box {
+    position: sticky;
+    top: 0;
+    left: 0;
+    
     width: 267px;
     height: 100px;
     background-color: #020d2b;
     border: 5px solid #041a4d;
+    
     margin-left: 3%;
     margin-top: 3%;
     padding-top: 1%;
+    
     text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 footer {
@@ -28,5 +32,23 @@ footer {
     position: fixed;
     bottom: 0%;
     width: 100%;
+}
+
+.error {
+    background-color: #020d2b;
+    border: 5px solid #041a4d;
+    
+    padding: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.error a {
+    text-decoration: none;
+    color: #768af5;
+}
+
+.error a:hover {
+    color: #3e59ed
 }
 

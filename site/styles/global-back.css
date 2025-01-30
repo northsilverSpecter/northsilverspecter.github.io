@@ -1,0 +1,27 @@
+.go-back {
+	width: 15%;
+	
+	background-color: #020d2b;
+    border: 5px solid #041a4d;
+	
+	padding-left: 3%;
+	padding-right: 3%;
+	
+	text-align: center;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.go-back h1, h2 {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.go-back a {
+    text-decoration: none;
+    color: #768af5;
+}
+
+.go-back a:hover {
+    color: #3e59ed
+}
