@@ -20,16 +20,23 @@
 }
 
 .latest {
-	width: 35%;
+	width: 300px;
+	height: 300px;
+	
+	text-align: center;
+}
+
+.latest p {
+	text-align: center;
 }
 
 .image {
+	height: 200px;
 	border-bottom: 5px solid #041a4d;
 }
 
 .blog {
-	padding-top: 5%;
-	padding-bottom: 5%;
+	height: 100px;
 }
 
 .button-icon{

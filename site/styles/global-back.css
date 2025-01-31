@@ -1,4 +1,7 @@
 .go-back {
+	position: absolute;
+	left: 0;
+	
 	width: 15%;
 	background-color: #020d2b;
     border: 5px solid #041a4d;

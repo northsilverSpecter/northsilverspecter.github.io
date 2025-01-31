@@ -1,8 +1,13 @@
+header {
+    height: 125;
+    border-bottom: 5px solid #041a4d;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #02051f;
     color: #c5cae6;
-    padding-bottom: 10%;
+    padding-bottom: 50%;
 }
 
 footer {
@@ -17,8 +22,7 @@ footer {
 }
 
 .header-box {
-    position: sticky;
-    top: 0;
+    position: relative;
     left: 0;
     
     width: 267px;
@@ -27,8 +31,7 @@ footer {
     border: 5px solid #041a4d;
     
     margin-left: 3%;
-    margin-top: 3%;
-    padding-top: 1%;
+    margin-top: 5%;
     
     text-align: center;
     display: inline-block;
