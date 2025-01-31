@@ -1,21 +1,40 @@
-.options {
-    text-align: left;
+.menu {
+	width: 25%;
+	
+	display: inline-block;
+    vertical-align: top;
+	
 	margin-top: 3%;
-	margin-left: 5%;
-    margin-right: 65%;
+	margin-left: 2%;
+	
 	background-color: #020d2b;
     border: 5px solid #041a4d;
 }
 
-.options h1, h2 {
+.menu h3 {
+	text-decoration: none;
+    color: #768af5;
 	display: inline-block;
     vertical-align: middle;
 	margin-left: 5%;
 }
 
+.latest {
+	width: 35%;
+}
+
+.image {
+	border-bottom: 5px solid #041a4d;
+}
+
+.blog {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
 .button-icon{
-	width: 48px;
-	height: 48px;
+	width: 32px;
+	height: 32px;
 	
 	background: url('../assets/button-unhover.png') no-repeat;
 	background-position: center bottom;
@@ -28,7 +47,7 @@
     vertical-align: middle;
 	
 	margin-top: 5%;
-	margin-right: 7%;
+	margin-right: 5%;
 }
 
 .button-icon:hover{

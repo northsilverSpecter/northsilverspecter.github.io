@@ -5,6 +5,17 @@ body {
     padding-bottom: 10%;
 }
 
+footer {
+    background-color: #05081a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    margin-left: -7px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
 .header-box {
     position: sticky;
     top: 0;
@@ -22,17 +33,6 @@ body {
     text-align: center;
     display: inline-block;
     vertical-align: middle;
-}
-
-footer {
-    background-color: #05081a;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 2%;
-    margin-left: -7px;
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
 }
 
 .error {
