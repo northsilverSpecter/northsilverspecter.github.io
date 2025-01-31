@@ -1,19 +1,12 @@
-.anchor {
+.sidebar {
+    width: 200px;
+    height: 450px;
+    text-align: left;
     position: fixed;
     top: 0;
     right: 0;
-    margin-top: 7%;
-    height: 300px;
-    width: 215px;
-    
-}
-
-.sidebar {
-    font-family: Arial, sans-serif;
-    color: #c5cae6;
-    width: 200px;
-    height: 265px;
-    text-align: left;
+    padding-top: 7%;
+    margin: 5px;
 }
 
 .sidebar-head {
