@@ -1,35 +1,45 @@
 @media screen and (max-width: 768px) { 
-	.sidebar {
+	.anchor {
 		display: none;
 	}
 }
 
-.sidebar {
-    width: 200px;
-    height: 450px;
-    text-align: left;
+.anchor {
     position: fixed;
     top: 0;
     right: 0;
-    padding-top: 7%;
-    margin: 5px;
+    margin-top: 7%;
+    height: 300px;
+    width: 215px;
+}
+
+.sidebar {
+    font-family: Arial, sans-serif;
+    color: #c5cae6;
+    width: 200px;
+    height: 265px;
+    text-align: left;
 }
 
 .sidebar-head {
 	padding-left: 3%;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
+    border-bottom: 2px solid #1e3978;
     background-color: #021329;
 }
 
 .sidebar-link {
 	padding-left: 3%;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
+    border-top: 2px solid #1e3978;
+    border-bottom: 2px solid #1e3978;
     background-color: #021329;
 }
 
 .sidebar-status {
 	padding-left: 3%;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
+    border-top: 2px solid #1e3978;
     background-color: #021329;
 }
 
@@ -39,5 +49,5 @@
 }
 
 .sidebar a:hover {
-    color: #3e59ed
+    color: #3e59ed;
 }

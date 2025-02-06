@@ -1,7 +1,13 @@
 .go-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 31%;
+	margin-top: 8%;
+	
 	width: 15%;
 	background-color: #020d2b;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
 	
 	padding-left: 3%;
 	padding-right: 3%;

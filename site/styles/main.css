@@ -2,41 +2,72 @@ body {
     font-family: Arial, sans-serif;
     background-color: #02051f;
     color: #c5cae6;
+    padding-bottom: 5%;
+} /* body first! */
+
+header {
+    padding-right: 3%;
+    height: 125px;
+    border-bottom: 5px solid #1e3978;
+    margin-bottom: 5%;
+    background: url('../assets/header-bg.png')
 }
 
 .header-box {
-    position: sticky;
+    background: url('../assets/logo.png');
+    
+    position: absolute;
     top: 0;
     left: 0;
     
     width: 267px;
     height: 100px;
     background-color: #020d2b;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
     
     margin-left: 3%;
-    margin-top: 3%;
-    padding-top: 1%;
+    margin-top: 7%;
     
+    vertical-align: middle;
     text-align: center;
+}
+
+footer {
+    border-top: 5px solid #1e3978;
+    background-color: #05081a;
+    
+    position: fixed;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    margin-left: -7px;
+    
+    bottom: 0%;
+    width: 100%;
+    
     display: inline-block;
     vertical-align: middle;
 }
 
-footer {
-    background-color: #05081a;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 2%;
-    margin-left: -7px;
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
+footer p {
+    display: inline-block;
+    vertical-align: middle;
 }
+
+footer a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer img {
+    margin-left: 25%;
+}
+
+/* error 404 page only */
 
 .error {
     background-color: #020d2b;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
     
     padding: 10%;
     margin-top: 5%;

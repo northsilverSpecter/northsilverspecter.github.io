@@ -1,0 +1,64 @@
+.catagory {
+	background-color: #020d2b;
+    border: 5px solid #1e3978;
+	
+	margin-top: 7%;
+	margin-left: 5%;
+    margin-right: 30%;
+	margin-bottom: 5%;
+	
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
+}
+
+.catagory h2 {
+	white-space: nowrap;
+	text-indent: 10%;
+}
+
+.catagory a {
+	text-indent: 15%;
+	text-align: left;
+	text-decoration: none;
+    color: #768af5;
+}
+
+.catagory a:hover {
+    color: #3e59ed
+}
+
+.catagory p {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	border-top: 2px dashed #112359;
+}
+
+.new {
+	color: #ffa647;
+	font-weight: bold;
+}
+
+/* This below would be the blog itself, just that it's a template for it */
+
+main {
+	background-color: #020d2b;
+    border: 5px solid #1e3978;
+	
+	margin-top: 7%;
+	margin-left: 5%;
+    margin-right: 30%;
+	margin-bottom: 5%;
+	
+	padding: 3%;
+}
+
+main a {
+	text-decoration: none;
+    color: #768af5;
+}
+
+main a:hover {
+    color: #3e59ed
+}
