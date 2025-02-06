@@ -7,7 +7,9 @@
     margin-right: 30%;
 	margin-bottom: 5%;
 	
-	padding: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
 }
 
 .catagory h2 {
@@ -27,8 +29,15 @@
 }
 
 .catagory p {
-	padding-top: 25%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	text-align: center;
+	border-top: 2px dashed #112359;
+}
+
+.new {
+	color: #ffa647;
+	font-weight: bold;
 }
 
 /* This below would be the blog itself, just that it's a template for it */

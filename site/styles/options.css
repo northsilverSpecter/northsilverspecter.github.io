@@ -19,27 +19,49 @@
 	margin-left: 5%;
 }
 
+/* Latest corner */
+
 .latest {
+	position: absolute;
+	margin-top: -3%;
+	
 	width: 300px;
 	height: 300px;
 	
-	text-align: center;
+	text-indent: 5%;
 	margin-left: 7.5%;
-}
-
-.latest p {
+	
 	text-align: center;
 }
 
 .latest .image {
-	height: 200px;
+	height: 169px;
 	border-bottom: 5px solid #1e3978;
 	vertical-align: middle;
 }
 
-.latest .blog {
-	height: 100px;
+.latest .blog p {
+	font-weight: Bold;
+	font-size: 20px;
 }
+
+.latest .blog .head {
+	text-indent: -23%;
+	margin-top: 4%;
+	font-weight: Bold;
+	font-size: 30px;
+}
+
+.latest .blog a{
+	text-decoration: none;
+    color: #768af5;
+}
+
+.latest .blog a:hover{
+	color: #3e59ed;
+}
+
+/* Buttons corner */
 
 .button-icon{
 	width: 32px;
