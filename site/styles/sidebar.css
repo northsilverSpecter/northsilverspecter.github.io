@@ -17,19 +17,23 @@
 
 .sidebar-head {
 	padding-left: 3%;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
+    border-bottom: 2px solid #1e3978;
     background-color: #021329;
 }
 
 .sidebar-link {
 	padding-left: 3%;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
+    border-top: 2px solid #1e3978;
+    border-bottom: 2px solid #1e3978;
     background-color: #021329;
 }
 
 .sidebar-status {
 	padding-left: 3%;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
+    border-top: 2px solid #1e3978;
     background-color: #021329;
 }
 

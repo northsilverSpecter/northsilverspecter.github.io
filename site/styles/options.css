@@ -8,7 +8,7 @@
 	margin-left: 2%;
 	
 	background-color: #020d2b;
-    border: 5px solid #041a4d;
+    border: 5px solid #1e3978;
 }
 
 .menu h3 {
@@ -24,18 +24,20 @@
 	height: 300px;
 	
 	text-align: center;
+	margin-left: 7.5%;
 }
 
 .latest p {
 	text-align: center;
 }
 
-.image {
+.latest .image {
 	height: 200px;
-	border-bottom: 5px solid #041a4d;
+	border-bottom: 5px solid #1e3978;
+	vertical-align: middle;
 }
 
-.blog {
+.latest .blog {
 	height: 100px;
 }
 
@@ -54,7 +56,7 @@
     vertical-align: middle;
 	
 	margin-top: 5%;
-	margin-right: 5%;
+	margin-right: 7%;
 }
 
 .button-icon:hover{
